@@ -10,8 +10,19 @@ class MagicballPage extends StatefulWidget {
 class _MagicballPageState extends State<MagicballPage> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: null,
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.blue[900],
+        centerTitle: true,
+        title: Text(
+          'Ask Me Anything',
+          style: TextStyle(
+            fontSize: 32,
+          ),
+        ),
+      ),
+      backgroundColor: Colors.blue[400],
+      body: null,
     );
   }
 }
